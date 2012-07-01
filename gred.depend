@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1340827549 source:c:\users\ignore\documents\github\gred\main.cpp
+	<iostream>
+	<string>
+
+1341095145 source:c:\users\ignore\documents\github\gred\src\module.cpp
+	"module.h"
+
+1341095181 c:\users\ignore\documents\github\gred\include\module.h
+
