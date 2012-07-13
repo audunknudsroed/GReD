@@ -1,10 +1,73 @@
 # depslib dependency file v1.0
-1340827549 source:c:\users\ignore\documents\github\gred\main.cpp
+1342032233 source:c:\users\ignore\documents\github\gred\main.cpp
 	<iostream>
 	<string>
+	<module.h>
+	<list>
+	<rai16.h>
 
-1341095145 source:c:\users\ignore\documents\github\gred\src\module.cpp
+1342031194 source:c:\users\ignore\documents\github\gred\src\module.cpp
 	"module.h"
 
-1341095181 c:\users\ignore\documents\github\gred\include\module.h
+1342116780 c:\users\ignore\documents\github\gred\include\module.h
+	<map>
+	<string>
+	<channel.h>
+
+1341777243 source:c:\users\ignore\documents\github\gred\src\connector.cpp
+	"connector.h"
+	<stdio.h>
+	<stdlib.h>
+
+1341757817 c:\users\ignore\documents\github\gred\include\connector.h
+	<map>
+	<string>
+	<channel.h>
+
+1341173315 source:c:\users\ignore\documents\github\gred\src\connection.cpp
+	"connection.h"
+
+1341172976 c:\users\ignore\documents\github\gred\include\connection.h
+	<string>
+	<list>
+
+1342031160 source:c:\users\ignore\documents\github\gred\src\rai16.cpp
+	"rai16.h"
+	<sstream>
+
+1342030164 c:\users\ignore\documents\github\gred\include\rai16.h
+	<can.h>
+	<pwr.h>
+	<module.h>
+	<analog_in.h>
+
+1342029508 source:c:\users\ignore\documents\github\gred\src\channel.cpp
+	"channel.h"
+
+1342029681 c:\users\ignore\documents\github\gred\include\channel.h
+	<string>
+
+1342030647 source:c:\users\ignore\documents\github\gred\src\analog_in.cpp
+	"analog_in.h"
+
+1342030628 c:\users\ignore\documents\github\gred\include\analog_in.h
+	<channel.h>
+
+1341705828 source:c:\users\ignore\documents\github\gred\src\analog_out.cpp
+	"analog_out.h"
+
+1341704940 c:\users\ignore\documents\github\gred\include\analog_out.h
+	<channel.h>
+
+1341751912 c:\users\ignore\documents\github\gred\include\pwr.h
+	<channel.h>
+
+1341751930 c:\users\ignore\documents\github\gred\include\can.h
+	<channel.h>
+
+1341751975 source:c:\users\ignore\documents\github\gred\src\can.cpp
+	"can.h"
+
+1341751961 source:c:\users\ignore\documents\github\gred\src\pwr.cpp
+	"pwr.h"
 

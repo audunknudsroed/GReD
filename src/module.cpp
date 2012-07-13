@@ -1,14 +1,26 @@
 #include "module.h"
-
-module::module(int val)
+module::module()
 {
-    this->test=val;
-}
 
+}
+module::module(string modName)
+{
+        this->name=modName;
+}
 module::~module()
 {
     //dtor
 }
-void module::testStuff(int val){
-    this->test=5;
+string* module::getChannels()
+{
+        for(int i=0; i<10;i++)
+        {
+
+        }
+
+}
+void module::addChannel(string modulename, string conTag, channel chan)
+{
+        this->channels[chan.getName()]=chan;
+        //this->connectors.insert(  pair<string,connector>(conTag, temp)  );
 }

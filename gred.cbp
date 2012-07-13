@@ -32,9 +32,21 @@
 			<Add option="-Wall" />
 			<Add directory="include" />
 		</Compiler>
+		<Unit filename="include\analog_in.h" />
+		<Unit filename="include\analog_out.h" />
+		<Unit filename="include\can.h" />
+		<Unit filename="include\channel.h" />
 		<Unit filename="include\module.h" />
+		<Unit filename="include\pwr.h" />
+		<Unit filename="include\rai16.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src\analog_in.cpp" />
+		<Unit filename="src\analog_out.cpp" />
+		<Unit filename="src\can.cpp" />
+		<Unit filename="src\channel.cpp" />
 		<Unit filename="src\module.cpp" />
+		<Unit filename="src\pwr.cpp" />
+		<Unit filename="src\rai16.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
